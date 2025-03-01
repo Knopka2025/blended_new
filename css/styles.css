@@ -44,6 +44,7 @@ button {
     font-weight: 600;
     font-size: 16px;
     text-align: center;
+    border-radius: 4px;
 }
 
 
@@ -250,12 +251,12 @@ button {
     color: #fff;
     background-color: #02897A;
     border: none;
-    width: 175px;
+    width: auto;
     border-radius: 4px;
     padding: 15px 32px; 
 }
 
-/*Section 2*/
+/*Section 3*/
 .mg-box{
     display: flex;
     align-items: center;
@@ -294,12 +295,383 @@ button {
     margin-bottom: 12px;
 }
 
-/* Section 3*/
+/* Section 4*/
 .wrap-support {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.support-img-box{
-   
+.support-text-box {
+    width: 451px;
+    margin-left: 84px;
+}
+.s-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tick {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    width: 54px;
+    height: 54px;
+    fill: #fff;
+    margin-right: 31px;
+}
+.f-tick{
+    background-color: #FF9900;
+}
+
+.s-tick{
+    background-color: #F03E3D;
+}
+
+.t-tick{
+    background-color: #4D8DFF;
+}
+.sup-title{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+    width: 304px;
+}
+.sup {
+    font-weight: 700;
+    font-size: 32px;
+}
+.sup-text {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.625;
+}
+.sup-text-sec {
+    width: 386px;
+}
+.mg-img {
+    padding-bottom: 150px;
+}
+
+/*Section 6
+Same as in section 4
+
+*/
+
+
+/*Section 7*/
+
+.section { 
+    padding: 150px 0 100px;
+}
+.ican-title-wrap {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 916px;
+}
+
+.ican-title {
+    width: 348px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto 25px;
+}
+
+.ican-list {
+    display: flex;
+    gap: 25px 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.ican-item{
+    width: calc((100% - 100px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ican-item:nth-child(2),
+.ican-item:nth-child(3){
+    flex-direction: row-reverse;
+}
+
+
+.ican-text {
+    border-radius: 25px;
+    padding: 14px 19px 12px;
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+    font-weight: 500;
+    text-align: center;
+    color: #2f281e;
+    margin: 0 10px;
+    
+}
+
+/*.photo-ican {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.product-btn-ican {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+/*Section 8*/
+.strategies{
+    padding-top: 100px;
+}
+.strategies-title {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.strategies-t {
+    width: 465px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 40px;
+}
+
+.wrap-list {
+    
+}
+
+.strategies-list {
+    width: ((100%-60px) / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;}
+
+.strategies-item {
+    width: 350px;
+    border-radius: 8px;
+    border: 1px solid #dedede;
+    
+}
+
+.strategies-img{
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 24px;
+}
+
+.strategies-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+
+.strategies-subtitle {
+    width: 296px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.66667;
+    margin-left: 27px;
+    margin-bottom: 40 px;
+}
+.strategies-subtitle:hover,
+.strategies-subtitle:focus {
+    color: #02897a;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.strategies-item:hover,
+.strategies-item:focus {
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+}
+
+
+
+
+/*Section9*/
+.pricing {
+    padding: 171px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.price-title {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.price-title-descr {
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    margin-bottom: 40px;
+}
+
+.price-list {
+width: calc((100%-144px) / 3);
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    gap: 72px;
+}
+
+.price-item {
+    border-radius: 8px;
+    width: 322px;
+    height: 456px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    
+    padding: 32px 71px;
+    transition: transform 0.25s;
+    margin: auto;
+}
+
+.price-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.price-item-title-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    margin-bottom: 16px;}
+
+.price-dollar-per-month {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.price-number {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+    margin-right: 8px;
+}
+
+.dollar-per-month {
+    text-align: center;
+        justify-content: center;
+        
+}
+
+.price-valute {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    display: flex;
+    justify-content: left;
+    margin-top: 24px;}
+
+.price-period {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.item-operations {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    margin-bottom: 16px;
+}
+
+.item-notifications {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    margin-bottom: 16px;
+}
+
+.item-landing {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    margin-bottom: 16px;}
+
+.btn-pricing {
+    display: auto;
+    border-radius: 8px;
+    background: #02897a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    padding: 11px 19px 11px 18px;
+    margin-bottom: 32px;
+    margin-top: 30px;
+}
+
+.price-item:hover,
+.price-item:focus{
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #02897a;
+    color: #fff;
+}
+
+/*Section10*/
+.feedback-box {
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px 0;
+  
+}
+.feedback-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.feedback-text {
+    margin-bottom: 40px;
+    width: 537px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #22343d; 
+     margin: 0 auto 40px;
+}
+
+.feedbak-list {
+    
 }
